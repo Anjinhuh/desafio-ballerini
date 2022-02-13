@@ -1,0 +1,25 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  
+    background-color: #2F2325;
+  }
+.app >  input{
+    width: 30%;
+    height: 5%;
+    text-align: center;
+
+    background-color: #413436;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-bottom: 1rem;
+    color: #FFF2E7;
+}
+.app > input::placeholder{
+    color: #fff;
+}
